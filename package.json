@@ -1,0 +1,28 @@
+{
+  "name": "Dapp_music_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-util-is": "^1.0.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ipfs-api": "^26.1.2",
+    "mongodb": "^4.4.1",
+    "node-gyp": "^9.0.0",
+    "nodemon": "^2.0.15",
+    "original-require": "^1.0.1",
+    "short-id": "0.1.0-1",
+    "shortid": "^2.2.16",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.7.1"
+  }
+}
